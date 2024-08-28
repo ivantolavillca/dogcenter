@@ -1,0 +1,1 @@
+   @livewire('landig-page.validation-user-index')

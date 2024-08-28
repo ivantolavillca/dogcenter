@@ -1,0 +1,12 @@
+@extends('layouts.admin_principal')
+@section('body')
+    @if($valor=='dos')
+    @livewire('modulos-v.mascota-raza')
+    @elseif($valor=="tres")
+    @livewire('modulos-v.mascota-especie')
+    @elseif($valor=="cuatro")
+    @livewire('modulos-v.mascota-color')
+    @else
+    @livewire('modulos-v.mascotas-index')
+    @endif
+@endsection
